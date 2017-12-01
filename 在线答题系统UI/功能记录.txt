@@ -1,0 +1,12 @@
+﻿
+1.用户登录  login.html
+2.用户注册  register.html
+
+3.题库主页  list2.html
+
+5.答题页面  exam.html
+
+6.结果页面  result.html
+
+7.解析页面   explain.html
+

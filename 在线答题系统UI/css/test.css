@@ -1,0 +1,36 @@
+/**
+ * 1.变量    
+ * 2.继承
+ * 3.嵌套写法
+ * 4.函数
+ * 
+ * **/
+.box {
+  width: 300px;
+  height: 150px;
+  background-color: #ffc0cb;
+  border: solid 5px #ff0000;
+  margin: 30px auto;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.margin {
+  margin: 30px auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul li {
+  float: left;
+  padding: 0 15px;
+}
+ul li a {
+  color: #1a1a1a;
+}
+/*# sourceMappingURL=test.css.map */

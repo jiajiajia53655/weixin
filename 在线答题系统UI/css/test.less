@@ -1,0 +1,50 @@
+/**
+ * 1.变量    
+ * 2.继承
+ * 3.嵌套写法
+ * 4.函数
+ * 
+ * **/
+
+@theme_color:red;
+@theme_bg_color:pink;
+@width:300px;
+@text_color:#333;
+
+.box{
+    width: @width;
+    height: @width/2;
+    background-color: @theme_bg_color;
+    .border(5px);
+    .margin;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.margin{
+    margin: 30px auto;
+}
+
+
+.border(@border_width:1px){
+    border: solid @border_width red;
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+        .left;
+        padding: 0 15px;
+        a{
+            color: @text_color/2;
+        }
+    }
+}

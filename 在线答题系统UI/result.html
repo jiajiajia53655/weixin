@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<!--
+		https://github.com/Tencent/weui/wiki
+	-->
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/weui.css" />
+		<link rel="stylesheet" href="js/example.css" />
+	</head>
+
+	<body>
+		<div class="page panel js_show">
+			<div class="page__hd">
+				<h1 class="page__title">结果页</h1>
+				<p class="page__desc"></p>
+			</div>
+			<div class="weui-form-preview">
+				<div class="weui-form-preview__hd">
+					<div class="weui-form-preview__item">
+						<label class="weui-form-preview__label">正确率</label>
+						<em class="weui-form-preview__value">99%</em>
+					</div>
+				</div>
+				<div class="weui-form-preview__bd">
+					<div class="weui-form-preview__item">
+						<label class="weui-form-preview__label">用时</label>
+						<span class="weui-form-preview__value">00：00</span>
+					</div>
+					<div class="weui-form-preview__item">
+						<label class="weui-form-preview__label">正确</label>
+						<span class="weui-form-preview__value">99/100</span>
+					</div>
+					<div class="weui-form-preview__item">
+						<label class="weui-form-preview__label">超过人数</label>
+						<span class="weui-form-preview__value">00</span>
+					</div>
+					<div class="weui-form-preview__item">
+					</div>
+				</div>
+			</div>
+			
+			<div class="page__bd page__bd_spacing result-list">
+				<div class="weui-flex">
+		            <div class="weui-flex__item"><a href="#"><span>1</span></a></div>
+		            <div class="weui-flex__item"><span>2</span></div>
+		            <div class="weui-flex__item"><span>3</span></div>
+		            <div class="weui-flex__item"><span>4</span></div>
+		            <div class="weui-flex__item"><span>5</span></div>
+		            <div class="weui-flex__item"><span>6</span></div>
+        		</div>
+        		<div class="weui-flex ">
+		            <div class="weui-flex__item error"><span>7</span></div>
+		            <div class="weui-flex__item"><span>8</span></div>
+		            <div class="weui-flex__item"><span>9</span></div>
+		            <div class="weui-flex__item"><span>10</span></div>
+		            <div class="weui-flex__item"><span>11</span></div>
+		            <div class="weui-flex__item"><span>12</span></div>
+        		</div>
+			</div>
+		</div>
+		<style type="text/css">
+			.result-list{
+				text-align: center;
+				line-height: 2em;
+			}
+			
+			.result-list .weui-flex{
+				padding: 0.5em 0;
+			}
+			
+			.result-list span{
+				display: inline-block;
+				width: 2em;
+				height: 2em;
+				background-color: green;
+				color: white;
+				border-radius: 50%;
+			}
+			
+			.result-list .error span{
+				background-color: red;
+			}
+			
+		</style>
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<script type="text/javascript">
+		</script>
+	</body>
+
+</html>
